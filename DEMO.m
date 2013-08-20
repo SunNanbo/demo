@@ -112,6 +112,5 @@ bl_res = NDCG(BL_ranking, Xu_test);
 % Measuring NDCG
 %
 fprintf('JNMF: %f, JNMF-GR: %f, BL: %f \n', jnmf_res, jnmf_gr_res, bl_res);
-% JNMF: 0.418664, JNMF-GR: 0.424008, BL: 0.386189 
 
 % END
